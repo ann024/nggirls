@@ -20,7 +20,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputComponent implements OnInit {
 title = 'Hello';
-private todoList = [
+public todoList = [
   {title: 'install NodeJS'},
   {title: 'install Angular CLI'},
   {title: 'create new app'},
